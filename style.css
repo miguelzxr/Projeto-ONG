@@ -1,0 +1,722 @@
+
+:root{
+
+    --rosa: #e91e63;
+    --azul: #2196f3;
+    --azult: #2525ff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 1, 49);
+    font-family: Arial, sans-serif;
+    color: #c49b9b;
+}
+
+
+header .nav-bar {
+    background-color: rgb(0, 0, 32);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header a {
+    
+    color: #2525ff;
+    font-size: 10px;
+    text-decoration: none;
+
+
+     background-color: #c49b9b17;
+    border-radius: 30px;
+    padding: 3px;
+}
+
+header a:hover{
+    background-color: white;
+
+}
+
+
+.inicio {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 8%;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.texto {
+    flex: 1;
+    min-width: 0;
+   margin-left: 20px;
+}
+
+.texto h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2525ff;
+}
+
+.texto p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #2525ff;
+}
+
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.Feedback{
+    background-color: rgb(0, 0, 32);
+}
+
+.Feedback header {
+    font-size: 10px;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.img-ajuda,
+.img-help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 0 25px;
+}
+
+
+.img-ajuda img,
+.img-help img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+
+.img-ajuda p,
+.img-help p {
+    flex: 1;
+    margin: 0;
+    padding: 15px;
+    margin-right: 200px;
+
+    background-color: #c49b9b51;
+    color: #e5c1c9;
+    border-radius: 30px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.adote {
+    width: 100%;
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("img/STJY5CCN5JG35LADEO2FPWOQ6A.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+.texto-adote {
+    width: 100%;
+    max-width: 900px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    text-align: center;
+    color: white;
+}
+
+.texto-adote h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.texto-adote p {
+    max-width: 700px;
+    font-size: 24px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+
+.caes {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+@keyframes bordaAnimada {
+    0% {border-color: var(--azul);}
+    25% {border-color: var(--rosa);}
+    50% {border-color: var(--azul);}
+    75% {border-color: var(--rosa);}
+    100% {border-color: var(--azul);}
+}
+
+.saimon, .pretinha, .teodoro  {
+    width: 550px;
+    text-align: center;
+    
+    color: #2525ff;
+
+
+}
+
+
+.saimon img, .pretinha img, .teodoro img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 4px solid var(--azul);
+    animation: bordaAnimada 4s infinite ease-in-out;
+
+}
+
+.saimon h2, .pretinha h2, .teodoro h2 {
+    font-size: 38px;
+    margin: 5px 0;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2525ff;
+}
+
+.informacoes, .informacoes-dois, .informacoes-tres {
+    color: #2525ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0;
+    
+
+
+    
+}
+
+.informacoes h3, .informacoes-dois h3, .informacoes-tres h3 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 10px;
+    background-color: white;
+    color: rgb(1, 1, 49) ;
+    border-radius: 30px;
+    padding: 5px;
+    color: #2525ff;
+
+    
+}
+
+
+.denuncias {
+    
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background-color: rgb(1, 1, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contatoss {
+    width: 100%;
+    max-width: 900px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+
+.Contatoss header {
+    margin-bottom: 5px;
+}
+
+.Contatoss h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+
+.imagem-adocao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-adocao img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2525ff;
+
+}
+
+
+
+
+.contato-adocao {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #1010d9, #3939ff);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+.contato-adocao p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.logos-contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 0;
+}
+
+.logos-contatos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #3939ff;
+    border-radius: 50%;
+
+}
+
+.logos-contatos a:hover {
+    background-color: #2525ff;
+ 
+}
+
+
+.logos-contatos img {
+    width: 30px;
+    height: 30px;
+
+}
+
+footer{
+    margin-top: 5px;
+}
+
+footer p{
+    text-align: center;
+    color: #2525ff;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+    header .nav-bar {
+        gap: 15px;
+        margin: 15px;
+        flex-wrap: wrap;
+    }
+
+    header a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+
+    .inicio {
+        padding: 40px 5%;
+    }
+
+    .conteudo {
+        gap: 30px;
+    }
+
+    .texto h1 {
+        font-size: 28px;
+    }
+
+    .texto p {
+        font-size: 16px;
+    }
+
+    .logo img {
+        max-width: 260px;
+    }
+
+    .img-ajuda,
+    .img-help {
+        gap: 25px;
+        padding: 0 30px;
+    }
+
+    .img-ajuda img,
+    .img-help img {
+        width: 170px;
+        height: 170px;
+        margin-left: 0;
+    }
+
+    .img-ajuda p,
+    .img-help p {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+  
+    .texto-adote h1 {
+        font-size: 28px;
+    }
+
+    .texto-adote p {
+        font-size: 20px;
+    }
+
+    
+    .caes {
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+
+
+    .saimon img,
+    .pretinha img,
+    .teodoro img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+   
+    .logos-contatos {
+        gap: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    
+    header .nav-bar {
+        margin: 10px;
+        padding: 12px;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+   
+    .inicio {
+        min-height: auto;
+        padding: 45px 20px;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .texto h1 {
+        font-size: 28px;
+    }
+
+    .texto p {
+        font-size: 16px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 70%;
+        max-width: 220px;
+    }
+
+
+    .Feedback header {
+        padding: 25px 15px;
+        font-size: 14px;
+    }
+
+    .img-ajuda,
+    .img-help {
+        flex-direction: column;
+        gap: 15px;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    .img-ajuda img,
+    .img-help img {
+        width: 150px;
+        height: 150px;
+        margin-left: 0;
+    }
+
+    .img-ajuda p,
+    .img-help p {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+    }
+
+
+    .adote {
+        min-height: 400px;
+        padding: 40px 20px;
+    }
+
+    .texto-adote {
+        gap: 20px;
+    }
+
+    .texto-adote h1 {
+        font-size: 26px;
+    }
+
+    .texto-adote p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+
+    .caes {
+        min-height: auto;
+        margin-top: 40px;
+        padding: 0 20px;
+        gap: 35px;
+    }
+
+    .saimon,
+    .pretinha,
+    .teodoro {
+        width: 100%;
+        max-width: 400px;
+        min-width: 0;
+    }
+
+    .saimon img,
+    .pretinha img,
+    .teodoro img {
+        width: 100%;
+        max-width: 300px;
+        height: 180px;
+    }
+
+    .saimon h2,
+    .pretinha h2,
+    .teodoro h2 {
+        font-size: 26px;
+    }
+
+    .informacoes,
+    .informacoes-dois,
+    .informacoes-tres {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .informacoes h3,
+    .informacoes-dois h3,
+    .informacoes-tres h3 {
+        font-size: 11px;
+        white-space: normal;
+    }
+
+
+    .denuncias {
+        min-height: auto;
+        padding: 40px 15px;
+    }
+
+    .Contatoss {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .Contatoss h1 {
+        font-size: 28px;
+    }
+
+    .imagem-adocao img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .contato-adocao {
+        padding: 15px 10px;
+        overflow-wrap: anywhere;
+    }
+
+    .contato-adocao p {
+        font-size: 16px;
+    }
+
+    .logos-contatos {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .logos-contatos a {
+        width: 48px;
+        height: 48px;
+    }
+
+    .logos-contatos img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 400px) {
+
+    header .nav-bar {
+        gap: 8px;
+        padding: 10px 5px;
+    }
+
+    header a {
+        font-size: 11px;
+        padding: 7px 9px;
+    }
+
+    .texto h1 {
+        font-size: 24px;
+    }
+
+    .texto p {
+        font-size: 14px;
+    }
+
+    .texto-adote h1 {
+        font-size: 23px;
+    }
+
+    .texto-adote p {
+        font-size: 15px;
+    }
+
+    .saimon img,
+    .pretinha img,
+    .teodoro img {
+        height: 150px;
+    }
+
+    .Contatoss h1 {
+        font-size: 24px;
+    }
+
+    .imagem-adocao img {
+        width: 160px;
+        height: 160px;
+    }
+}
