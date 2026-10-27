@@ -557,7 +557,7 @@ footer p{
         padding: 15px;
         font-size: 14px;
         line-height: 1.6;
-        overflow-wrap: anywhere;
+        
     }
 
 
@@ -612,7 +612,7 @@ footer p{
     .informacoes,
     .informacoes-dois,
     .informacoes-tres {
-        flex-wrap: wrap;
+        
         gap: 8px;
     }
 
@@ -620,7 +620,7 @@ footer p{
     .informacoes-dois h3,
     .informacoes-tres h3 {
         font-size: 11px;
-        white-space: normal;
+        
     }
 
 
@@ -654,7 +654,7 @@ footer p{
 
     .logos-contatos {
         gap: 25px;
-        flex-wrap: wrap;
+        
     }
 
     .logos-contatos a {
